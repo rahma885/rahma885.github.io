@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #111;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px;
+}
+
+.service {
+    background-color: #00bcd4;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #111;
+}
+
+footer nav a {
+    color: #03a9f4;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+ul.brands {
+    list-style: none;
+    padding: 0;
+}
+
+ul.brands li {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+ul.brands img {
+    width: 40px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
