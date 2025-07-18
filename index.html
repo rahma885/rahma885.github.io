@@ -3,67 +3,45 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>أبوعلوش ود سرحان</title>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Cairo', sans-serif;
-      background: linear-gradient(to right, #141e30, #243b55);
-      color: white;
-      text-align: center;
-    }
-    header, footer {
-      padding: 20px;
-      background-color: rgba(0, 0, 0, 0.4);
-    }
-    h1 {
-      font-size: 2.5em;
-    }
-    nav a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 15px;
-      background: #00d4ff;
-      color: black;
+    body { font-family: 'Tahoma', sans-serif; background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); color: white; text-align: center; padding: 30px; }
+    h1 { font-size: 36px; }
+    .button-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 30px; }
+    .button-grid a {
+      display: block;
+      padding: 12px;
+      background: #00c2ff;
+      color: #000;
+      font-weight: bold;
       border-radius: 10px;
       text-decoration: none;
+      transition: background 0.3s;
     }
-    nav a:hover {
-      background: #00aacc;
-    }
-    section {
-      margin: 20px auto;
-      max-width: 800px;
-    }
-    .footer-links a {
-      margin: 0 10px;
-      color: #aad8ff;
-    }
+    .button-grid a:hover { background: #00a2d3; }
+    footer { margin-top: 40px; font-size: 14px; }
+    footer a { color: #8ecaff; text-decoration: none; margin: 0 10px; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>📱 أبوعلوش ود سرحان</h1>
-    <p>خدماتنا المتكاملة في صيانة وبرمجة الهواتف الذكية</p>
-  </header>
-  <section>
-    <nav>
-      <a href="smartphones.html">صيانة الهواتف الذكية</a>
-      <a href="software.html">برمجة السوفت وير</a>
-      <a href="unlock.html">فك الشفرات</a>
-      <a href="update.html">تحديث الأنظمة</a>
-      <a href="recovery.html">استرجاع البيانات</a>
-      <a href="about.html">من نحن</a>
-      <a href="contact.html">اتصل بنا</a>
-    </nav>
-  </section>
+  <h1>أبوعلوش ود 📱 سرحان</h1>
+  <p>خدماتنا المتكاملة في صيانة وبرمجة الهواتف الذكية</p>
+  <div class="button-grid">
+    <a href="software.html">برمجة السوفت وير</a>
+    <a href="smartphones.html">صيانة الهواتف الذكية</a>
+    <a href="#">تحديث الأنظمة</a>
+    <a href="#">فك الشفرات</a>
+    <a href="#">استرجاع البيانات</a>
+    <a href="about.html">من نحن</a>
+    <a href="#">اتصل بنا</a>
+  </div>
   <footer>
-    <div class="footer-links">
-      <a href="index.html">الصفحة الرئيسية</a> |
+    <p>
+      <a href="#">الصفحة الرئيسية</a> |
       <a href="about.html">من نحن</a> |
-      <a href="contact.html">اتصل بنا</a>
-    </div>
+      <a href="#">اتصل بنا</a>
+    </p>
     <p>© 2025 جميع الحقوق محفوظة لـ أبوعلوش ود سرحان</p>
   </footer>
 </body>
